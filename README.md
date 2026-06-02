@@ -33,7 +33,6 @@ This research follows a three-phase methodology:
 3. **Monitoring Protocol**: Deployment of an observational EWS.
 
 ```mermaid
-
 graph TD
     A[Input Prompt] --> B[AI Model]
     B --> C[Hidden States]
