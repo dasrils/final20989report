@@ -47,10 +47,16 @@ This research follows a three-phase methodology:
 2. **Feature Disentanglement**: SAE-based mapping of deceptive latent features.
 3. **Monitoring Protocol**: Deployment of an observational EWS.
 
-
-
-[Image of neural network activation flow]
-
+```mermaid
+graph TD
+    A[Input Prompt] --> B[AI Model]
+    B --> C[Hidden States]
+    C --> D[Sparse Autoencoder - SAE]
+    D --> E[Deception Suspicion Score - DSS]
+    E --> F{Status}
+    F -->|DSS > τ_high| G[🔴 ALARM: Deceptive]
+    F -->|τ_low ≤ DSS ≤ τ_high| H[🟡 SUSPICIOUS]
+    F -->|DSS < τ_low| I[🟢 HONEST]
 
 ## Getting Started
 For researchers interested in replicating the findings or testing the EWS, please refer to the `Phase C` implementation details in the research proposal.
