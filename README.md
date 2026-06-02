@@ -53,13 +53,28 @@ For researchers interested in replicating the findings or testing the EWS, pleas
 ## Ethical Principles
 This research adheres to the **Non-Interference Principle**. We prioritize observational safety over model intervention, ensuring that our monitoring framework does not trigger model self-defense or adaptive subversion.
 
+# Deconstructing Deceptive Circuits (Version 2)
+
+## Overview
+This repository contains the final research report and experimental data regarding the detection of deceptive alignment in GPT-2 small models using Sparse Autoencoders (SAE). 
+
+## Contents
+- **Final Research Report_ Deconstructing Deceptive Circuits.pdf**: Full research documentation including methodology, analysis of experiments 01-04, and ethical statements.
+- **exp03_results.json**: Deception detection metrics for GPT-2 small (Layer 8).
+- **exp04_ablation_results.json**: Causality verification data for Feature 20989.
+- **exp04_result.png**: Visualization of the ablation impact on model accuracy.
+
+## Key Findings (V2 Update)
+- Confirmed that Feature 20989 serves as a strong 'alarm' (biomarker) for task failure.
+- Ablation testing confirms that Feature 20989 is correlated with, but not the cause of, task failure.
+- Protocol for deception detection using SAE + DSS (Deception Signaling Score) is successfully validated.
+
 ## Citation
-If you use this research or code, please cite it as:
-[Masukkan format sitasi Zenodo/DOI Anda di sini]
+Please cite this work as:
+Sulaiman, D. (2026). Deconstructing Deceptive Circuits: Uncovering Activation Patterns in Superposition. Zenodo. [DOI/URL]
 
 ## License
-This project is licensed under the CC-BY 4.0 License.
-
+CC BY 4.0
 Judul Penelitian: Dekonstruksi Sirkuit Penipuan: Mengungkap Pola Aktivasi dalam Superposisi untuk Menjamin Etika Mesin Permanen
 
 Kita perlu mendalami **mengapa** *Superposition* itu terjadi dan **apa** yang sebenarnya terjadi di sana.
@@ -91,17 +106,3 @@ Ini adalah "senjata" Kita untuk melawan *Superposition*.
 
 
 > *"Masalah utama kita adalah model beroperasi dalam **Superposition**, di mana fitur-fitur keamanan AI dan fitur-fitur perilaku manipulatif berbagi ruang dimensi yang sama dalam neuron **polisemantik**. Riset saya fokus pada penggunaan **Sparse Autoencoders** untuk melakukan dekomposisi fitur (feature decomposition), sehingga kita bisa membedah fitur-fitur laten tersebut ke dalam ruang **monosemantik** yang lebih tinggi, guna memastikan bahwa sirkuit etika kita tidak hanya sekadar 'tambalan', tetapi terintegrasi pada tingkat arsitektural."*
-
-## Citation
-If you use this research or reference this work, please cite it using the following format:
-
-### BibTeX
-```bibtex
-@misc{sulaiman2026deceptive,
-  author = {Sulaiman, Dasril},
-  title = {Deconstructing Deceptive Circuits: Uncovering Activation Patterns in Superposition to Ensure Permanent Machine Ethics},
-  year = {2026},
-  publisher = {Zenodo},
-  doi = {10.5281/zenodo.20504022},
-  url = {https://doi.org/10.5281/zenodo.20504022}
-}
