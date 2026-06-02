@@ -38,10 +38,6 @@ For researchers interested in replicating the findings or testing the EWS, pleas
 ## Ethical Principles
 This research adheres to the **Non-Interference Principle**. We prioritize observational safety over model intervention, ensuring that our monitoring framework does not trigger model self-defense or adaptive subversion.
 
-## Citation
-If you use this research or code, please cite it as:
-[Masukkan format sitasi Zenodo/DOI Anda di sini]
-
 ## License
 This project is licensed under the CC-BY 4.0 License.)
 
