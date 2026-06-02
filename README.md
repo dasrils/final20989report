@@ -103,5 +103,5 @@ If you use this research or reference this work, please cite it using the follow
   year = {2026},
   publisher = {Zenodo},
   doi = {10.5281/zenodo.20504022},
-  url = {[https://doi.org/10.5281/zenodo.20504022](https://doi.org/10.5281/zenodo.20504022)}
+  url = {https://doi.org/10.5281/zenodo.20504022}
 }
